@@ -44,7 +44,25 @@ body {
     color: #fff;
 }
 
-#check-categories {
+.yellow-categories {
+    border: 2px solid rgb(236, 174, 39);
+    background-color: rgb(236, 174, 39);
+    color: #fff;
+}
+
+.pink-categories {
+    border: 2px solid rgb(201, 72, 143);
+    background-color: rgb(201, 72, 143);
+    color: #fff;
+}
+
+.lemon-categories {
+    border: 2px solid rgb(161, 204, 43);
+    background-color: rgb(161, 204, 43);
+    color: #fff;
+}
+
+.check-categories {
     display: inline-block;
     color: green;
     font-size: 7px;
@@ -55,7 +73,7 @@ body {
     vertical-align: middle;
 }
 
-#cross-categories {
+.cross-categories {
     display: inline-block;
     color: red;
     font-size: 7px;
@@ -68,7 +86,10 @@ body {
 
 .editorial-categories,
 .q1goals-categories,
-.recruiting-categories {
+.recruiting-categories,
+.mobile-categories,
+.website-categories,
+.sales-categories {
     border-radius: 12px;
     font-size: small;
 }
@@ -85,12 +106,11 @@ h2  {
 
 /* ******** HEADER ********** */
 header {
-    line-height: 100px;
     margin-bottom: 50px;
 }
 
 .header-logo {
-    height: 100px;
+    height: 80px;
     vertical-align: middle;
 }
 
@@ -99,14 +119,10 @@ h1 {
     vertical-align: middle;
 }
 
-header .container {
-
-}
-
 /* ******** MAIN ********** */
 main .container{
     max-width: 1080px;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
 
 
