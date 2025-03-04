@@ -38,7 +38,13 @@ body {
         color: #fff;
 }
 
-span.check-categories {
+.green-categories {
+    border: 2px solid rgb(107, 199, 148);
+    background-color: rgb(107, 199, 148);
+    color: #fff;
+}
+
+#check-categories {
     display: inline-block;
     color: green;
     font-size: 7px;
@@ -49,12 +55,20 @@ span.check-categories {
     vertical-align: middle;
 }
 
-.editorial-categories {
-    border-radius: 12px;
-    font-size: small;
+#cross-categories {
+    display: inline-block;
+    color: red;
+    font-size: 7px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 1px 3px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
 
-.q1goals-categories  {
+.editorial-categories,
+.q1goals-categories,
+.recruiting-categories {
     border-radius: 12px;
     font-size: small;
 }
