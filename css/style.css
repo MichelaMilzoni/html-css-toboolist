@@ -1,5 +1,98 @@
+/* ******** GENERICHE ********** */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f6f8fa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.categories {
+    display: inline-block;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 10px;
+}
+.blue-categories {
+    background-color: rgb(74, 156, 204);
+    border: 2px solid rgb(74, 156, 204);
+    color: #fff;
+}
+
+.white-categories {
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+.violet-categories {
+        border: 2px solid rgb(152, 89, 204);
+        background-color: rgb(152, 89, 204);
+        color: #fff;
+}
+
+span.check-categories {
+    display: inline-block;
+    color: green;
+    font-size: 7px;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 1px 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.editorial-categories {
+    border-radius: 12px;
+    font-size: small;
+}
+
+.q1goals-categories  {
+    border-radius: 12px;
+    font-size: small;
+}
+
+p {
+    display: inline;
+}
+
+h2  {
+    font-size: 25px;
+}
+/* ******** UTILS ********** */
+
+
+/* ******** HEADER ********** */
+header {
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+
+.header-logo {
+    height: 100px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .container {
+
+}
+
+/* ******** MAIN ********** */
+main .container{
+    max-width: 1080px;
+    padding: 20px 40px;
+}
+
+
